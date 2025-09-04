@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog AMGnutri - Conseils Nutrition & Musculation</title>
+    <meta name="description" content="Articles informatifs sur la nutrition sportive, les régimes musculation, et les conseils d'entraînement.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --amg-red: #e50914;
+            --amg-black: #111111;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-4px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-black text-white">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">
+                    <span class="text-red-500">AMG</span>nutri Blog
+                </div>
+                <a href="index.html" class="text-white hover:text-red-500 transition">
+                    <i class="fas fa-arrow-left mr-2"></i>Retour au site
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-red-500 to-black text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Blog AMGnutri</h1>
+            <p class="text-xl opacity-90">Conseils nutrition, musculation et bien-être</p>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Article 1 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Whey Protein" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">NUTRITION</div>
+                        <h3 class="text-xl font-bold mb-3">Guide complet : Comment choisir sa whey protein ?</h3>
+                        <p class="text-gray-600 mb-4">
+                            Découvrez comment sélectionner la meilleure whey selon vos objectifs : prise de masse, sèche ou performance.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>5 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Creatine" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">SUPPLEMENTS</div>
+                        <h3 class="text-xl font-bold mb-3">La créatine : mythes vs réalité</h3>
+                        <p class="text-gray-600 mb-4">
+                            Tout ce que vous devez savoir sur la créatine : ses bienfaits, le dosage optimal et les fausses idées reçues.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>7 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Musculation" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">ENTRAÎNEMENT</div>
+                        <h3 class="text-xl font-bold mb-3">Programme musculation débutant 2024</h3>
+                        <p class="text-gray-600 mb-4">
+                            Un programme complet pour débutants avec exercices, nutrition et récupération optimale.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>10 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Nutrition" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">RÉGIMES</div>
+                        <h3 class="text-xl font-bold mb-3">Régime musculation : calculer ses macros</h3>
+                        <p class="text-gray-600 mb-4">
+                            Apprenez à calculer vos besoins en protéines, glucides et lipides pour optimiser vos gains.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>8 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="BCAA" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">SUPPLEMENTS</div>
+                        <h3 class="text-xl font-bold mb-3">BCAA : quand et comment les prendre ?</h3>
+                        <p class="text-gray-600 mb-4">
+                            Guide complet sur l'utilisation des BCAA pour maximiser la récupération et la performance.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>6 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                         alt="Mass Gainer" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-red-500 font-semibold mb-2">PRISE DE MASSE</div>
+                        <h3 class="text-xl font-bold mb-3">Top 10 aliments pour prendre de la masse</h3>
+                        <p class="text-gray-600 mb-4">
+                            Les meilleurs aliments naturels pour augmenter votre apport calorique et vos gains musculaires.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="far fa-clock mr-2"></i>
+                            <span>9 min de lecture</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Restez informé</h2>
+            <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+                Recevez nos derniers articles et conseils directement dans votre boîte mail
+            </p>
+            <form class="max-w-md mx-auto">
+                <div class="flex gap-4">
+                    <input type="email" 
+                           placeholder="Votre email" 
+                           class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-red-500">
+                    <button type="submit" 
+                            class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition">
+                        S'abonner
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-red-500">AMG</span>nutri Blog
+                    </h3>
+                    <p class="text-gray-400">
+                        Votre source d'information fiable sur la nutrition sportive et la musculation.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Catégories</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-red-500 transition">Nutrition</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Suppléments</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Entraînement</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Régimes</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Articles populaires</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-red-500 transition">Guide whey protein</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Programme débutant</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Calcul macros</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Suivez-nous</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-red-500 transition">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-red-500 transition">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-red-500 transition">
+                            <i class="fab fa-tiktok text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 AMGnutri Blog. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/212710148162" class="fixed bottom-4 right-4 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
